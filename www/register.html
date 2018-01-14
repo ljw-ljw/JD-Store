@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>个人注册</title>
+	</head>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="css/register.css"/>
+	<body>
+		<header>
+			<contain>
+				<div>
+					<span class="logo"></span>
+					<span class="zc">欢迎注册</span>
+				</div>
+				<div class="second">
+					<span>已有账号？</span>
+					<span><a href="login.html">请登录</a></span>
+				</div>
+			</contain>
+		</header>
+		
+		<contain>
+			<section>
+				<form action="" method="post">
+					<div class="form-group form-groupX">
+						<label class="l-s">用户名</label>
+						<div class="ipt">							
+							<txt>您的账户名和登录名</txt>
+							<input type="text" autocomplete="off" name="user" required />
+						</div>
+						<span class="icon"></span>
+					</div>
+					<div class="tip">
+						<span><span class="icon"></span>支持中文、字母、数字、"-" "_"的组合,4-20个字符</span>
+						<span><span class="icon"></span>格式错误,仅支持汉字、字母、数字、"-" "_"的组合</span>
+						
+					</div>
+					<div class="form-group form-groupX">
+						<label class="l-s">设置密码</label>
+						<div class="ipt">					
+							<txt>建议至少使用两种字符组合</txt>
+							<input type="password" autocomplete="off" name="psw" required style="width: 190px;" />
+						</div>
+						<span class="icon"></span>
+					</div>
+					<div class="tip">
+						<span><span class="icon"></span>建议使用字母、数字和符号两种及以上的组合，6-20个字符</span>
+						<span><span class="icon"></span>长度只能在6-20个字符之间</span>
+					</div>
+					<div class="form-group form-groupX">
+						<label class="l-s">确认密码</label>
+						<div class="ipt">						
+							<txt>请再次输入密码</txt>
+							<input name="checkPsw" autocomplete="off" required type="password" />
+						</div>
+						<span class="icon"></span>
+					</div>
+					<div class="tip">
+						<span><span class="icon"></span>请再次输入密码</span>
+						<span><span class="icon"></span>两次密码输入不一致</span>
+					</div>
+					<div class="form-group form-groupX">
+						<label>
+							<select>
+								<option value="">中国 大陆0086</option>
+								<option value="">中国 香港00852</option>
+							</select>
+						</label>
+						<div class="ipt">						
+							<txt>建议使用常用手机</txt>
+							<input type="tel" autocomplete="off" required name="phone" />
+						</div>
+						<span class="icon"></span>
+					</div>
+					<div class="tip">
+						<span><span class="icon"></span>完成验证后，你可以用该手机登录和找回密码</span>
+						<span><span class="icon"></span>格式错误</span>
+					</div>
+					<div class="form-group">
+						<label>验证码</label>
+						<div class="ipt">						
+							<txt>请输入验证码</txt>
+							<input type="text" autocomplete="off" required class="SzZm"/>
+						</div>
+						<div class="code"></div>
+					</div>
+					<div class="tip">
+						<span><span class="icon"></span>看不清?点击图片更换验证码</span>
+						<span><span class="icon"></span>验证码输入有误</span>
+					</div>
+					<div class="form-group">
+						<label>手机验证码</label>
+						<div class="ipt">							
+							<txt>请输入手机验证码</txt>
+							<input type="text" autocomplete="off" required class="SjYz"/>
+						</div>
+						<button  type="button" class="send-tip" onclick="send(this);">获取验证码</button>
+					</div>
+					<div class="tip">
+						<span></span>
+						<span></span>
+					</div>
+					<div class="form-group">
+						<input type="submit" autocomplete="off" name="" id="" value="立即注册" />						
+					</div>
+				</form>
+			</section>
+			<section>
+				<div>
+					<div class="row" style="padding-top: 0;">
+						<span class="house"></span>
+						<a>企业用户注册</a>
+					</div>
+					<div class="row">
+						<span class="global"></span>
+						<a>INTERNATIONALCUSTOMERS</a>
+					</div>
+				</div>
+			</section>
+		</contain>
+		<footer>
+			<ul>
+				<li>关于我们</li>|
+				<li>联系我们</li>|
+				<li>人才招聘</li>|
+				<li>商家入驻</li>|
+				<li>广告服务</li>|
+				<li>手机京东</li>|
+				<li>友情链接</li>|
+				<li>销售联盟</li>|
+				<li>京东社区</li>|
+				<li>京东公益</li>
+				<li>English Site</li>
+			</ul>
+			<p>Copyright©2004-2016  京东JD.com 版权所有</p>
+		</footer>
+		<!--模态框-->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		    <div class="modal-dialog">
+		        <div class="modal-content">
+		            <div class="modal-header">
+		                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		                <h4 class="modal-title" id="myModalLabel">京东---登录</h4>
+		            </div>
+		            <div class="modal-body">在这里添加一些文本</div>
+		            <div class="modal-footer">
+		                <button type="button" class="btn btn-default" data-dismiss="modal">确定</button>
+		            </div>
+		        </div><!-- /.modal-content -->
+		    </div><!-- /.modal -->
+		</div>
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="bootstrap/js/bootstrap.js"></script>
+		<script src="js/codes.js"></script>
+		<script src="js/register.js"></script>
+	</body>
+</html>

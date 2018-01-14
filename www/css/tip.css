@@ -1,0 +1,202 @@
+
+/*图标*/
+/* 感叹号 */
+
+.point {
+    background-image: url('../img/tip/icon-tips.png');
+    width: 16px;
+    height: 16px;
+}
+
+
+/* messgage */
+
+.message {
+    background-image: url('../img/tip/q-icon.png');
+    width: 18px;
+    height: 14px;
+}
+
+
+/* 免输入 更快 更安全 */
+
+.coagent {
+    background-image: url('../img/tip/qr-coagent.png');
+    width: 25px;
+    height: 25px;
+}
+
+.coagent-x1y1 {
+    background-position: 0 0;
+}
+
+.coagent-x2y1 {
+    background-position: 26px 0;
+}
+
+.coagent-x3y1 {
+    background-position: 53px 0;
+}
+
+
+/* 微信 QQ */
+
+.qq-weixin {
+    background-image: url('../img/tip/QQ-weixin.png');
+    width: 19px;
+    height: 18px;
+}
+
+.qq-x1y1 {
+    background-position: 0 0;
+}
+
+.weixin-x2y1 {
+    background-position: 19.55px 0;
+}
+
+
+/* 多图标集合 指定写入两个类有效*/
+
+.more-icon {
+    background-image: url('../img/tip/pwd-icons-new.png')
+}
+
+
+/* > */
+
+.gt-icon {
+    width: 16px;
+    height: 16px;
+    background-position: 16px 99px;
+}
+
+
+/* 头像 */
+
+
+/* 点击前 */
+
+.gt-head1 {
+    width: 39px;
+    height: 38px;
+    background-position: 0px 174px;
+}
+
+
+/* 点击后 */
+
+.gt-head2 {
+    width: 39px;
+    height: 38px;
+    background-position: 0px 126px;
+}
+
+
+/* 错误 */
+
+.gt-head3 {
+    width: 39px;
+    height: 38px;
+    background-position: 0px 78px;
+}
+
+
+/* 密码锁 */
+
+
+/* 点击前 */
+
+.gt-lock1 {
+    width: 39px;
+    height: 38px;
+    background-position: -48px 174px;
+}
+
+
+/* 被点击 */
+
+.gt-lock2 {
+    width: 39px;
+    height: 38px;
+    background-position: -48px 126px;
+}
+
+
+/* 错误 */
+
+.gt-lock3 {
+    width: 39px;
+    height: 38px;
+    background-position: -48px 78px;
+}
+
+
+/* 多图标集合 指定写入两个类有效*/
+
+.register-icon {
+    background-image: url('../img/register/icon.png');
+}
+
+
+/* 注册  logo */
+
+.register-logo {
+    width: 160px;
+    height: 50px;
+    background-position: 0 0;
+}
+
+
+/* 企业 */
+
+.company {
+    width: 30px;
+    height: 29px;
+    background-position: 0 -50px;
+}
+
+
+/* joybuy */
+
+.joybuy {
+    width: 30px;
+    height: 29px;
+    background-position: -49px -50px;
+}
+
+
+/* top */
+
+.r-top {
+    width: 15px;
+    height: 15px;
+    background-position: -17px 17px;
+}
+
+
+/* dowm */
+
+.r-down {
+    width: 15px;
+    height: 15px;
+    background-position: -1px 17px;
+}
+
+
+/* 调查问卷 red */
+
+.r-test-red {
+    width: 33px;
+    height: 135px;
+    background-position: 66px 0;
+}
+
+
+/* 调查问卷 gray */
+
+.r-test-gray {
+    width: 33px;
+    height: 135px;
+    background-position: 33px 0;
+}

@@ -1,0 +1,58 @@
+[
+    {
+        "text": [
+            {
+                "src": "//img13.360buyimg.com/babel/s70x70_jfs/t6427/57/638085379/70059/4db79802/5943304dNeb81efcf.jpg",
+                "inner": "更多家用电器券",
+                "mod": "¥",
+                "coupon": "1000",
+                "limit": "满10000元可用",
+                "desc": "【自营】京东空调部分自营商品"
+            },
+            {
+                "src": "//img10.360buyimg.com/babel/s70x70_jfs/t14590/312/602697782/358703/74088e7f/5a31e015N8bb17b4e.jpg!q90",
+                "inner": "更多服饰内衣券",
+                "mod": "¥",
+                "coupon": "20",
+                "limit": "满50元可用",
+                "desc": "尚品眼镜专营店"
+            },
+            {
+                "src": "//img10.360buyimg.com/babel/s70x70_jfs/t14782/57/1685850374/150069/f631d148/5a5484eaNaa4de465.jpg!q90",
+                "inner": "更多家居家纺券",
+                "mod": "¥",
+                "coupon": "50",
+                "limit": "满129元可用",
+                "desc": "锦绣金源家居专营店"
+            }
+        ]
+    },
+    {
+        "text": [
+            {
+                "src": "//img12.360buyimg.com/babel/s70x70_jfs/t12157/50/2480239265/132398/2281b7e6/5a4245e0N0fa6584f.jpg!q90",
+                "inner": "更多精选好券",
+                "mod": "¥",
+                "coupon": "50",
+                "limit": "满399元可用",
+                "desc": "自营慢病用药【领券再享1元秒】"
+            },
+            {
+                "src": "//img12.360buyimg.com/babel/s70x70_jfs/t7366/351/1158159113/342659/850e3d95/599adf11Nc6ec37b7.jpg",
+                "inner": "更多手机数码券",
+                "mod": "¥",
+                "coupon": "100",
+                "limit": "满899元可用",
+                "desc": "自营小米手机部分商品"
+            },
+            {
+                "src": "//img14.360buyimg.com/babel/s70x70_jfs/t15370/201/1499514012/509916/593d02b4/5a5037d1Nc3c5020f.jpg",
+                "inner": "更多食品饮料券",
+                "mod": "¥",
+                "coupon": "20",
+                "limit": "满30元可用",
+                "desc": "萌果果食品专营店"
+            }
+        ]
+    }
+]

@@ -1,0 +1,275 @@
+body{
+	margin: 0;
+}
+header{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 5px 5px #f0f0f0; 
+	min-width: 800px;
+}
+header contain{
+	display: block;
+	width: 90%;
+}
+
+header contain{
+	display: flex;
+	justify-content: space-between;
+}
+
+header .logo{
+	display: inline-block;
+	width: 160px;
+	height: 50px;
+	background-image: url(../img/icon.png);
+}
+header .zc{
+	font-size: 22px;
+	position: relative;
+	top: -14px;
+	left: 12px;
+	color: #333333;
+}
+
+header .second{
+	display: flex;
+	align-items: flex-end;
+}
+
+header .second span:nth-child(1){
+	color: grey;
+}
+header .second span:nth-child(2) a{
+	color: black;
+	text-decoration: none;
+}
+header .second span:nth-child(2) a:hover{
+	text-decoration: underline;
+}
+
+contain{
+	display: flex;
+	justify-content: center;
+	min-width: 900px;
+}
+
+contain:nth-child(2){
+	margin-top:60px ;
+	padding-bottom: 80px;
+	border-bottom: 1px solid gainsboro;
+	/*min-width: 1000px;*/
+}
+contain section{
+	width: 45%;
+	/*border:1px solid gray;*/
+}
+section:first-child{
+	border-right: 1px solid gainsboro;
+}
+contain section:nth-child(1){
+	display: flex;
+	justify-content: center;
+}
+
+form .form-group{
+	width: 100%;
+	border: 1px solid gainsboro;
+	padding: 15px;
+	position: relative;
+	height: 55px;
+}
+
+form label{	
+	color: #666666;
+}
+
+.l-s{
+	letter-spacing: 5px;
+}
+
+form .form-group{
+	display: flex;
+	box-sizing: border-box;
+	position: relative;
+}
+
+form .form-group .ipt{
+	position: relative;
+	margin-left:10px ;
+}
+
+form .form-group txt{
+	font-size: 15px;
+	color: lightgray;
+	line-height: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+form .form-group input{
+	border: none;
+	outline: none;
+}
+
+form .form-group>.icon{
+	display: inline-block;
+	width: 17px;
+	height: 19px;
+	background-image: url(../img/icon.png);
+	background-position:0 -116px;
+	position: absolute;
+	right: 10px;
+	display: none;
+}
+
+form .form-group select{
+	color:#666666;
+	border: none;
+	outline: none;
+}
+
+form .form-group:last-child{
+	padding: 0;
+}
+
+form .form-group input[type="submit"] {
+	width: 100%;
+	background-color: #ee2222;
+	color: white;
+	padding: 20px 0;
+}
+
+form .tip{	
+	height: 30px;
+	padding: 0;
+}
+
+form .tip span{
+	font-size: 13px;
+	line-height: 30px;
+	display: none;
+}
+
+form .tip span:nth-child(1){
+	color: gainsboro;
+}
+
+form .tip span .icon{
+	display: inline-block;
+	width: 17px;
+	height: 20px;
+	background-image: url(../img/icon.png);
+	position: relative;
+	top: 3px;
+	margin-right:6px ;
+}
+
+form .tip span:nth-child(1) .icon{	
+	background-position:0px -97px;
+	
+}
+
+form .tip span:nth-child(2){
+	color: red;
+}
+
+form .tip span:nth-child(2) .icon{
+	background-position:-17px -97px;
+}
+
+
+/*第二个section*/
+section .row{
+	min-width: 200px;
+}
+section .row:nth-child(1){
+	border-bottom: 1px solid gainsboro;
+}
+section .row span{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-image: url(../img/icon.png);
+}
+
+section .row span.house{
+	background-position: 0 -43px;
+}
+section .row  a{
+	display: inline-block;
+	position: relative;
+	width: 130px;
+	word-break: break-all;
+	cursor: pointer;
+}
+section .row  a:hover{
+	font-weight: bold;
+	text-decoration: underline;
+}
+section .row:nth-of-type(1)  a{
+	position: relative;
+	top: -15px;
+}
+
+section .row span.global{
+	background-position: -40px -43px;
+	position: relative;
+	left: -9px;
+}
+
+section:nth-child(2) div{
+	width: 80%;
+	margin-left: 10%;
+	
+} 
+
+section:nth-child(2) div .row{
+	padding:20px 0;
+	width: 40%;
+}
+footer{
+	margin-top: 60px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: darkgray;
+}
+footer ul{
+	list-style: none;
+	display: flex;
+	font-size: 15px;
+	
+}
+
+footer ul li{
+	padding: 0 5px;
+}
+
+footer ul li:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+footer p{
+	font-size: 15px;
+}
+
+.code{
+	position: absolute;
+	top: -10px;
+}
+.send-tip{
+	background-color: #F2F2F2;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 20px;
+	position: relative;
+	top: -13px;
+	right: -23px;
+	color:gray;
+	cursor: pointer;
+	border: none;
+}

@@ -1,0 +1,113 @@
+/*轮播图*/
+.j-special-slider {
+    position: relative;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+.js-slider-body,
+.js-slider-dol {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.js-slider-body>li {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.general-bd h3 {
+    font-weight: normal;
+    font-size: 22px;
+    color: #222;
+    line-height: 44px;
+    margin: 0;
+}
+
+.general-bd i {
+    position: relative;
+    top: 6px;
+    left: 4px;
+}
+
+.general-bd span {
+    display: inline-block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    margin: 12px 0 0 10px;
+}
+
+.general-div390 {
+    width: 390px;
+    background-color: #ffffff;
+}
+
+.general-bd {
+    height: 50px;
+    padding: 0 17px;
+}
+
+.js-slider-body>li>div {
+    height: 330px;
+}
+
+.js-slider-body .hd {
+    width: 350px;
+    height: 250px;
+    /* border: 1px solid black; */
+    padding: 8px 17px;
+}
+
+.js-slider-dol {
+    /* background-color: #d9d9d9; */
+    position: absolute;
+    bottom: 15px;
+    left: 44.4%;
+}
+
+.js-slider-dol>li {
+    width: 8px;
+    height: 8px;
+    border: 2px solid #b9beba;
+    background-color: #f0f3ef;
+    border-radius: 50%;
+    margin: 2px 10px;
+    float: left;
+}
+
+.js-slider-dol>li.js-active {
+    background-color: #eb3436;
+}
+
+.js-pre,
+.js-next {
+    outline: none;
+    width: 20px;
+    height: 40px;
+    position: absolute;
+    font-size: 28px;
+    border: none;
+    color: gray;
+    background-color: #d9d9d9;
+    top: 45%;
+    display: none;
+}
+
+.js-next {
+    right: 0;
+}
+
+.j-special-slider:hover .js-next,
+.j-special-slider:hover .js-pre {
+    display: block;
+}
+
+.js-next:hover,
+.js-pre:hover {
+    background-color: #999999;
+    color: white;
+}

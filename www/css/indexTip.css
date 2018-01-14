@@ -1,0 +1,319 @@
+/*图标*/
+/* 多快好省 */
+
+.i-mqg-icon {
+    background-image: url('../img/index/tip/qqw.png');
+    width: 36px;
+    height: 42px;
+}
+
+.i-more-x1y1 {
+    background-position: 0 0;
+}
+
+.i-more-x1y2 {
+    background-position: 0 -43px;
+}
+
+.i-more-x1y3 {
+    background-position: 0 -86px;
+}
+
+.i-more-x1y4 {
+    background-position: 0 -129px;
+}
+
+
+/* footer */
+
+.i-footer-icon {
+    width: 103px;
+    height: 32px;
+    background-image: url('../img/index/tip/ico_footer.png');
+}
+
+.footer-x1y3 {
+    background-position: 0 32px;
+}
+
+.footer-x1y2 {
+    background-position: 0 65px;
+}
+
+.footer-x1y1 {
+    background-position: 0 98px;
+}
+
+.footer-x2y3 {
+    background-position: -105px 32px;
+}
+
+.footer-x2y2 {
+    background-position: -105px 65px;
+}
+
+.footer-x2y1 {
+    background-position: -105px 98px;
+}
+
+
+/* 地图 */
+
+.i-footer-map {
+    width: 200px;
+    height: 150px;
+    background-image: url('../img/index/tip/ico_footer.png');
+    background-position: 0 0;
+}
+
+
+/* 右侧边图 */
+
+.i-right-icon {
+    width: 34px;
+    height: 35px;
+    background-image: url('../img/index/tip/toolbars.png');
+}
+
+.i-right-user {
+    background-position: 0 0;
+}
+
+.i-right-car-gray {
+    background-position: 6px 8px;
+}
+
+.i-right-heart-gray {
+    background-position: 6px -41px;
+}
+
+.i-right-time-gray {
+    background-position: 6px -91px;
+}
+
+.i-right-bird-gray {
+    background-position: 6px -143px;
+}
+
+.i-right-ashbin-gray {
+    background-position: 11px -190px;
+}
+
+.i-right-delete-gray {
+    background-position: 11px 239px;
+}
+
+.i-right-top-white {
+    background-position: -48px 100px;
+}
+
+.i-right-write-white {
+    background-position: -48px 50px;
+}
+
+.i-right-bird-white {
+    background-position: -48px 200px;
+}
+
+.i-right-time-white {
+    background-position: -48px 250px;
+}
+
+.i-right-heart-white {
+    background-position: -48px 300px;
+}
+
+.i-right-car-white {
+    background-position: -48px 350px;
+}
+
+.i-right-user-white {
+    background-position: -86px 176px;
+}
+
+.i-right-message-white {
+    background-position: 272px 199px;
+}
+
+.i-right-doll {
+    width: 6px;
+    height: 6px;
+    background-image: url('../img/index/tip/toolbars.png');
+    background-position: 310px 200px;
+}
+
+
+/* right 图标 */
+
+.i-righticon {
+    width: 23px;
+    height: 23px;
+    background-image: url('../img/index/tip/下载.png');
+}
+
+
+/* 闪电 */
+
+.i-lightning {
+    width: 20px;
+    height: 33px;
+    background-image: url('../img/index/tip/sprite.seckill.png');
+    background-position: -35px -25px;
+}
+
+
+/* 注册下面整片图标 */
+
+.i-server {
+    width: 24px;
+    height: 24px;
+    background-image: url('../img/index/tip/sprite.service.png');
+}
+
+
+/* 火车 */
+
+.i-server-x1y1 {
+    background-position: 0 24px;
+}
+
+
+/* 围巾 */
+
+.i-server-x1y2 {
+    background-position: 0 53px;
+}
+
+
+/* 群 */
+
+.i-server-x2y2 {
+    background-position: -29px 24px;
+}
+
+
+/* 飞机 */
+
+.i-server-x2y1 {
+    background-position: -29px 53px;
+}
+
+
+/* 相机 */
+
+.i-server-x3y2 {
+    background-position: -58px 53px;
+}
+
+
+/* 换钱 */
+
+.i-server-x3y1 {
+    background-position: -58px 24px;
+}
+
+
+/* 游戏 */
+
+.i-server-x4y2 {
+    background-position: -87px 53px;
+}
+
+
+/* 信件 */
+
+.i-server-x4y1 {
+    background-position: -87px 24px;
+}
+
+
+/* 水滴 */
+
+.i-server-x5y2 {
+    background-position: -116px 24px;
+}
+
+
+/* 大厦 */
+
+.i-server-x5y1 {
+    background-position: -116px 53px;
+}
+
+
+/* 手机 */
+
+.i-server-x6y2 {
+    background-position: -145px 53px;
+}
+
+
+/* 建筑 */
+
+.i-server-x7y2 {
+    background-position: -174px 53px;
+}
+
+
+/* 安卓苹果ipad */
+
+.i-mobile {
+    width: 25px;
+    height: 25px;
+    background-image: url('../img/index/tip/sprite_mobile@1x.png');
+}
+
+.i-mobile-andorid {
+    background-position: 0 -26px;
+}
+
+.i-mobile-ios {
+    background-position: 0 0;
+}
+
+.i-mobile-ipad {
+    background-position: 0 -52px;
+}
+
+
+/* 相机 */
+
+.i-photo {
+    width: 19px;
+    height: 15px;
+    background-image: url('../img/index/tip/sprite-photo-search.png');
+}
+
+.i-photo-gray {
+    background-position: 0 0;
+}
+
+.i-photo-red {
+    background-position: -30px 0;
+}
+
+
+/* 定位 */
+
+.i-position {
+    width: 14px;
+    height: 14px;
+    background-image: url('../img/index/tip/position.png');
+    background-size: 100% 100%;
+}
+
+
+/* play */
+
+.play1 {
+    width: 44px;
+    height: 44px;
+    background-image: url('../img/index/tip/live_btn.png');
+    background-size: 100% 100%;
+}
+
+.play2 {
+    width: 60px;
+    height: 60px;
+    background-image: url('../img/index/tip/live_btn.png')
+}

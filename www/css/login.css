@@ -1,0 +1,218 @@
+body{
+	margin: 0;
+}
+header{
+	width: 100%;
+	padding: 10px 0;
+	display: flex;
+	flex-direction:column ;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 5px 5px #f0f0f0; 
+	min-width: 800px;
+	overflow: hidden;
+}
+header contain{
+	display: block;
+	width: 75%;
+	min-width: 800px;
+}
+
+header contain{
+	display: flex;
+	justify-content: space-between;
+}
+
+header .logo{
+	display: inline-block;
+	width: 160px;
+	height: 50px;
+	background-image: url(../img/icon.png);
+}
+header .zc{
+	font-size: 22px;
+	position: relative;
+	top: -14px;
+	left: 12px;
+	color: #333333;
+}
+
+header .second{
+	display: flex;
+	align-items: flex-end;
+	font-size: 13px;
+	color: gray;
+}
+header .second .icon{
+	display: inline-block;
+	width: 18px;
+	height: 13px;
+	background-image: url(../img/q-icon.png);
+	position: relative;
+	top: 3px;
+	left: -3px;
+}
+
+header botton{
+	font-size: 13px;
+	color: gray;
+	margin-top:15px ;
+}
+.icon{
+	display: inline-block;
+	width: 17px;
+	height: 18px;
+	background-image: url(../img/icon.png);
+	background-position: 0 -99px;
+	position: relative;
+	top: 3px;
+	left: -2px;
+}
+
+content{
+	display: block;
+	width: 100%;
+	height: 450px;
+	background-image: url(../img/login-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #c90708;
+	position: relative;
+	min-width: 800px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 0 180px;
+	box-sizing: border-box;
+}
+
+content .login{
+	width: 350px;
+	height: 400px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+}
+content .login .head{
+	background-color: #fff8f0;
+	padding: 5px;
+	font-size: 13px;
+	text-align: center;
+	color: gray;
+}
+content .login .way{
+	display: flex;
+	font-size: 20px;
+	justify-content: space-around;
+	padding: 10px 0;
+	color: gray;
+}
+
+content .login .data{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 25px 0;
+}
+
+content .login .icon2{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-image: url(../img/login-icon.png);
+	border: 1px solid darkgray;
+	position: relative;
+	top: 15px;
+	left: 5px;
+	box-sizing: border-box;
+	border-right: none;
+}
+content .login .psw .icon2{
+	background-position: -49px 0;
+}
+content .login  input{
+	padding: 0 10px;
+	height: 40px;
+	width: 230px;
+	box-sizing: border-box;
+	outline: none;
+}
+content .login .data .forget p{
+	text-align: right;
+	color: #666666;
+}
+content .login .data input[type=submit]{
+	width: 100%;
+	background-color: #ec393c;
+	border: none;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
+content botton{
+	width: 275px;
+	margin: 30px auto 0;
+	font-size: 15px;
+	color: #66667d;
+	display: flex;
+	justify-content: space-between;
+}
+content botton .icon3{
+	display: inline-block;
+	width: 20px;
+	height: 18px;
+	background-image: url(../img/QQ-weixin.png);
+	position: relative;
+	top: 4px;
+	margin-right: 3px;
+}
+content botton div span:nth-child(3) .icon3{
+	background-position: -19px 0;
+}
+content botton div:nth-child(2){
+	position: relative;
+	top: -5px;
+}
+content botton div  .icon4{
+	display: inline-block;
+	width: 40px;
+	height: 25px;
+	background-image: url(../img/login-icon.png);
+	background-position:-80px;
+	position: relative;
+	top: 10px;
+	margin-right:5px ;	
+}
+content botton div  a{
+	color: red;
+	text-decoration: none;
+}
+content botton div  a:hover{
+	text-decoration: underline;
+}
+
+footer{
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #666666;
+}
+footer ul{
+	list-style: none;
+	display: flex;
+	font-size: 15px;
+	
+}
+
+footer ul li{
+	padding: 0 5px;
+}
+
+footer ul li:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+footer p{
+	font-size: 13px;
+}
